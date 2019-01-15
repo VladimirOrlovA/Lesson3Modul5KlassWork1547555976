@@ -213,7 +213,30 @@ void Task6()
 	printf("\n--------------------------------------------------------------------------\n\nTask6 - 11\n\n");
 	SetConsoleTextAttribute(hConsole, 7);
 
+	const int ind = 10;
+	int arr[ind], i, c = 0;
 
+	for (i = 0; i < ind; i++)
+	{
+		arr[i] = -5 + rand() % 14;
+
+		printf("A[%d] = %2d \n", i, arr[i]);
+	}
+
+	printf("\n\n");
+
+	for (i = 0; i < ind; i++)
+	{
+		if (arr[c] == arr[i+])
+		{
+			arr[i] = 111111;
+			c++;
+		}
+
+	}
+
+	for (i = 0; i < ind; i++) printf("A[%d] = %2d \n", i, arr[i]);
+	
 }
 
 
